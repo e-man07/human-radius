@@ -71,14 +71,14 @@ function App() {
             {/* Buttons Container */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center mt-12 px-4">
               <button 
-                onClick={() => window.open('https://my.clevelandclinic.org/health/body/23122-fibula-calf-bonehttps://my.clevelandclinic.org/health/body/24528-radius', '_blank', 'noopener,noreferrer')}
+                onClick={() => window.open('https://my.clevelandclinic.org/health/body/24528-radius', '_blank', 'noopener,noreferrer')}
                 className="group relative overflow-hidden rounded-xl px-8 py-4 text-lg font-medium text-white bg-blue-500 transition-all duration-300 hover:bg-blue-600 hover:-translate-y-1 hover:shadow-[0_0_40px_0_rgba(59,130,246,0.3)]"
               >
                 <span className="relative z-10">About Human Radius</span>
               </button>
               
               <button 
-                onClick={() => window.open('https://sketchfab.com/3d-models/human-fibula-5f239617db8d4d2eaaf13b8616acf70ehttps://sketchfab.com/3d-models/human-radius-5859fa73306d45fe96049d60468ec996', '_blank', 'noopener,noreferrer')}
+                onClick={() => window.open('https://sketchfab.com/3d-models/human-radius-5859fa73306d45fe96049d60468ec996', '_blank', 'noopener,noreferrer')}
                 className="group relative overflow-hidden rounded-xl px-8 py-4 text-lg font-medium text-blue-500 transition-all duration-300
                   hover:text-blue-400 hover:-translate-y-1 hover:shadow-[0_0_40px_0_rgba(59,130,246,0.15)]
                   border border-blue-500/20 hover:border-blue-500/40 bg-[#0A0A0A]"
