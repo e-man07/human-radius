@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased bg-[#0A0A0A];
+  }
+}
+
+@layer utilities {
+  @keyframes float {
+    0% {
+      transform: translate(0, 0) rotate(0deg);
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      transform: translate(var(--translate-x, 100px), var(--translate-y, -100vh)) rotate(var(--rotate, 360deg));
+      opacity: 0;
+    }
+  }
+}
